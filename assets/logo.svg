@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <!-- Hex shield frame -->
+  <path d="M60 8 L104 32 V72 L60 112 L16 72 V32 Z" stroke="url(#g1)" stroke-width="2.5" fill="#0b1220"/>
+  <!-- Loom threads -->
+  <path d="M28 44 C44 36, 76 36, 92 44" stroke="#06b6d4" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+  <path d="M24 60 C42 68, 78 52, 96 60" stroke="#22d3ee" stroke-width="2.2" stroke-linecap="round" opacity="0.85"/>
+  <path d="M28 76 C48 68, 72 84, 92 76" stroke="#67e8f9" stroke-width="2.2" stroke-linecap="round" opacity="0.7"/>
+  <!-- Weave nodes -->
+  <circle cx="60" cy="52" r="4" fill="#06b6d4"/>
+  <circle cx="44" cy="60" r="3" fill="#22d3ee" opacity="0.8"/>
+  <circle cx="76" cy="60" r="3" fill="#22d3ee" opacity="0.8"/>
+  <circle cx="60" cy="68" r="3.5" fill="#67e8f9" opacity="0.75"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" fill="none">
+  <rect width="900" height="280" rx="16" fill="#0b1220"/>
+  <text x="36" y="36" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#f1f5f9">SOCloom Pipeline</text>
+  <!-- Nodes -->
+  <g font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">
+    <rect x="36" y="80" width="100" height="48" rx="8" fill="#111827" stroke="#334155"/>
+    <text x="86" y="110" text-anchor="middle" fill="#94a3b8">Logs / IOCs</text>
+    <rect x="176" y="80" width="100" height="48" rx="8" fill="#111827" stroke="#06b6d4" stroke-opacity="0.5"/>
+    <text x="226" y="105" text-anchor="middle" fill="#06b6d4">ML</text>
+    <text x="226" y="118" text-anchor="middle" fill="#64748b" font-size="9" font-weight="400">Isolation Forest</text>
+    <rect x="316" y="80" width="100" height="48" rx="8" fill="#111827" stroke="#8b5cf6" stroke-opacity="0.5"/>
+    <text x="366" y="105" text-anchor="middle" fill="#a78bfa">Rules</text>
+    <text x="366" y="118" text-anchor="middle" fill="#64748b" font-size="9" font-weight="400">5 Sigma-style</text>
+    <rect x="456" y="80" width="110" height="48" rx="8" fill="#111827" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <text x="511" y="105" text-anchor="middle" fill="#22d3ee">Skill Router</text>
+    <text x="511" y="118" text-anchor="middle" fill="#64748b" font-size="9" font-weight="400">817 catalog</text>
+    <rect x="606" y="80" width="100" height="48" rx="8" fill="#111827" stroke="#10b981" stroke-opacity="0.5"/>
+    <text x="656" y="105" text-anchor="middle" fill="#34d399">AI Agent</text>
+    <text x="656" y="118" text-anchor="middle" fill="#64748b" font-size="9" font-weight="400">Multi-LLM</text>
+    <rect x="746" y="80" width="110" height="48" rx="8" fill="#06b6d4" fill-opacity="0.15" stroke="#06b6d4"/>
+    <text x="801" y="110" text-anchor="middle" fill="#06b6d4">Alert + MITRE</text>
+  </g>
+  <!-- Arrows -->
+  <path d="M136 104 H176" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <path d="M276 104 H316" stroke="#475569" stroke-width="1.5"/>
+  <path d="M416 104 H456" stroke="#475569" stroke-width="1.5"/>
+  <path d="M566 104 H606" stroke="#475569" stroke-width="1.5"/>
+  <path d="M706 104 H746" stroke="#06b6d4" stroke-width="1.5"/>
+  <defs><marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#475569"/></marker></defs>
+  <!-- Output row -->
+  <g font-family="Inter, system-ui, sans-serif" font-size="10" fill="#64748b">
+    <rect x="176" y="180" width="130" height="36" rx="6" fill="#111827" stroke="#1e293b"/>
+    <text x="241" y="202" text-anchor="middle">REST API</text>
+    <rect x="326" y="180" width="130" height="36" rx="6" fill="#111827" stroke="#1e293b"/>
+    <text x="391" y="202" text-anchor="middle">WebSocket</text>
+    <rect x="476" y="180" width="130" height="36" rx="6" fill="#111827" stroke="#1e293b"/>
+    <text x="541" y="202" text-anchor="middle">Dashboard</text>
+    <rect x="626" y="180" width="130" height="36" rx="6" fill="#111827" stroke="#1e293b"/>
+    <text x="691" y="202" text-anchor="middle">MCP Server</text>
+  </g>
+  <path d="M801 128 V155 H691 V180" stroke="#334155" stroke-width="1" fill="none" stroke-dasharray="4 3"/>
+  <path d="M801 128 V155 H541 V180" stroke="#334155" stroke-width="1" fill="none" stroke-dasharray="4 3"/>
+  <path d="M801 128 V155 H391 V180" stroke="#334155" stroke-width="1" fill="none" stroke-dasharray="4 3"/>
+  <path d="M801 128 V155 H241 V180" stroke="#334155" stroke-width="1" fill="none" stroke-dasharray="4 3"/>
+</svg>

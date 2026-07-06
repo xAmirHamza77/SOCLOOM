@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" fill="none">
+  <rect width="800" height="360" rx="16" fill="#0b1220"/>
+  <text x="40" y="42" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="600" fill="#f1f5f9">Alert Analytics</text>
+  <text x="40" y="64" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#64748b">Risk distribution · attack types · confidence trend</text>
+  <!-- Donut chart -->
+  <circle cx="200" cy="200" r="80" fill="none" stroke="#1e293b" stroke-width="24"/>
+  <circle cx="200" cy="200" r="80" fill="none" stroke="#ef4444" stroke-width="24" stroke-dasharray="100 402" stroke-dashoffset="0" transform="rotate(-90 200 200)"/>
+  <circle cx="200" cy="200" r="80" fill="none" stroke="#f97316" stroke-width="24" stroke-dasharray="150 352" stroke-dashoffset="-100" transform="rotate(-90 200 200)"/>
+  <circle cx="200" cy="200" r="80" fill="none" stroke="#f59e0b" stroke-width="24" stroke-dasharray="180 322" stroke-dashoffset="-250" transform="rotate(-90 200 200)"/>
+  <circle cx="200" cy="200" r="80" fill="none" stroke="#10b981" stroke-width="24" stroke-dasharray="72 430" stroke-dashoffset="-430" transform="rotate(-90 200 200)"/>
+  <text x="200" y="195" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" fill="#f1f5f9">42</text>
+  <text x="200" y="215" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#64748b">ALERTS</text>
+  <!-- Legend -->
+  <g font-family="Inter, system-ui, sans-serif" font-size="11">
+    <rect x="60" y="290" width="10" height="10" rx="2" fill="#ef4444"/><text x="76" y="299" fill="#94a3b8">Critical 12%</text>
+    <rect x="160" y="290" width="10" height="10" rx="2" fill="#f97316"/><text x="176" y="299" fill="#94a3b8">High 29%</text>
+    <rect x="250" y="290" width="10" height="10" rx="2" fill="#f59e0b"/><text x="266" y="299" fill="#94a3b8">Medium 35%</text>
+    <rect x="350" y="290" width="10" height="10" rx="2" fill="#10b981"/><text x="366" y="299" fill="#94a3b8">Low 24%</text>
+  </g>
+  <!-- Bar chart right -->
+  <text x="430" y="110" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">Top Attack Types</text>
+  <rect x="430" y="130" width="180" height="16" rx="3" fill="#06b6d4" opacity="0.7"/>
+  <text x="430" y="142" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#0b1220" font-weight="600">UDP Flood</text>
+  <text x="620" y="142" font-family="JetBrains Mono, monospace" font-size="10" fill="#64748b">8</text>
+  <rect x="430" y="158" width="130" height="16" rx="3" fill="#22d3ee" opacity="0.65"/>
+  <text x="430" y="170" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#0b1220" font-weight="600">Port Scan</text>
+  <text x="620" y="170" font-family="JetBrains Mono, monospace" font-size="10" fill="#64748b">5</text>
+  <rect x="430" y="186" width="95" height="16" rx="3" fill="#8b5cf6" opacity="0.6"/>
+  <text x="430" y="198" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#f1f5f9" font-weight="600">Lateral Mvmt</text>
+  <text x="620" y="198" font-family="JetBrains Mono, monospace" font-size="10" fill="#64748b">4</text>
+  <rect x="430" y="214" width="75" height="16" rx="3" fill="#a78bfa" opacity="0.55"/>
+  <text x="430" y="226" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#f1f5f9" font-weight="600">Data Exfil</text>
+  <text x="620" y="226" font-family="JetBrains Mono, monospace" font-size="10" fill="#64748b">3</text>
+  <!-- Sparkline -->
+  <text x="430" y="270" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">Confidence Trend</text>
+  <polyline points="430,310 470,295 510,300 550,280 590,285 630,265 670,270 710,250 750,255" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="750" cy="255" r="4" fill="#06b6d4"/>
+  <text x="760" y="259" font-family="JetBrains Mono, monospace" font-size="11" fill="#06b6d4">67%</text>
+</svg>

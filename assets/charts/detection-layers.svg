@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" fill="none">
+  <rect width="800" height="340" rx="16" fill="#0b1220"/>
+  <text x="40" y="42" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="600" fill="#f1f5f9">3-Layer Detection Engine</text>
+  <text x="40" y="64" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#64748b">ML anomaly + Sigma rules + skill-orchestrated AI</text>
+  <!-- Layer 1 -->
+  <rect x="40" y="90" width="720" height="56" rx="10" fill="#111827" stroke="#1e293b"/>
+  <rect x="40" y="90" width="520" height="56" rx="10" fill="#06b6d4" opacity="0.15"/>
+  <rect x="40" y="90" width="520" height="56" rx="10" fill="none" stroke="#06b6d4" stroke-width="1.5" opacity="0.6"/>
+  <text x="60" y="123" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#06b6d4">Layer 1 — ML</text>
+  <text x="200" y="123" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#94a3b8">Isolation Forest · 8 features · auto-train</text>
+  <text x="700" y="123" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="13" fill="#f1f5f9">72%</text>
+  <!-- Layer 2 -->
+  <rect x="40" y="162" width="720" height="56" rx="10" fill="#111827" stroke="#1e293b"/>
+  <rect x="40" y="162" width="610" height="56" rx="10" fill="#8b5cf6" opacity="0.12"/>
+  <rect x="40" y="162" width="610" height="56" rx="10" fill="none" stroke="#8b5cf6" stroke-width="1.5" opacity="0.55"/>
+  <text x="60" y="195" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#a78bfa">Layer 2 — Rules</text>
+  <text x="210" y="195" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#94a3b8">5 Sigma-style rules · MITRE mapped</text>
+  <text x="700" y="195" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="13" fill="#f1f5f9">85%</text>
+  <!-- Layer 3 -->
+  <rect x="40" y="234" width="720" height="56" rx="10" fill="#111827" stroke="#1e293b"/>
+  <rect x="40" y="234" width="480" height="56" rx="10" fill="#10b981" opacity="0.12"/>
+  <rect x="40" y="234" width="480" height="56" rx="10" fill="none" stroke="#10b981" stroke-width="1.5" opacity="0.55"/>
+  <text x="60" y="267" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#34d399">Layer 3 — AI + Skills</text>
+  <text x="240" y="267" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#94a3b8">817 playbooks · multi-LLM · cost-optimized</text>
+  <text x="700" y="267" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="13" fill="#f1f5f9">67%</text>
+  <!-- Fusion -->
+  <text x="400" y="320" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#64748b">→ Confidence fusion → Alert + MITRE + Playbook</text>
+</svg>

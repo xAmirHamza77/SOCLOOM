@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" fill="none">
+  <rect width="1280" height="640" fill="#060d18"/>
+  <rect width="1280" height="640" fill="url(#g)" opacity="0.4"/>
+  <defs>
+    <radialGradient id="g" cx="30%" cy="40%" r="70%">
+      <stop stop-color="#06b6d4" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#060d18" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g transform="translate(520, 180) scale(2)">
+    <path d="M60 8 L104 32 V72 L60 112 L16 72 V32 Z" stroke="#06b6d4" stroke-width="2.5" fill="#111827"/>
+    <path d="M28 44 C44 36, 76 36, 92 44" stroke="#06b6d4" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M24 60 C42 68, 78 52, 96 60" stroke="#22d3ee" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M28 76 C48 68, 72 84, 92 76" stroke="#67e8f9" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="60" cy="52" r="4" fill="#06b6d4"/>
+  </g>
+  <text x="640" y="400" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="80" font-weight="700" fill="#f8fafc" letter-spacing="-3">SOCloom</text>
+  <text x="640" y="460" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="26" fill="#64748b">Open-Source AI-Native SOC Platform</text>
+  <text x="640" y="520" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="16" fill="#06b6d4">817 skills · MITRE ATT&amp;CK · MCP · ML detection</text>
+</svg>

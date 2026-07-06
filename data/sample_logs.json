@@ -1,0 +1,7 @@
+[
+  {"src_ip": "10.0.0.12", "dst_ip": "10.0.0.45", "protocol": "TCP", "packet_size": 512, "duration": 2.1},
+  {"src_ip": "203.0.113.55", "dst_ip": "10.0.0.5", "protocol": "UDP", "packet_size": 7200, "duration": 32.5},
+  {"src_ip": "198.51.100.22", "dst_ip": "10.0.0.10", "protocol": "TCP", "packet_size": 64, "duration": 0.3, "dst_port": 22},
+  {"src_ip": "10.0.0.42", "dst_ip": "185.220.101.8", "protocol": "TCP", "packet_size": 12000, "duration": 45.0, "bytes_sent": 12000},
+  {"src_ip": "10.0.0.15", "dst_ip": "10.0.0.88", "protocol": "TCP", "packet_size": 3800, "duration": 22.0}
+]

@@ -98,8 +98,8 @@ Python 3.11+ · Node.js 20+ (dashboard) · [Anthropic Cybersecurity Skills](http
 ### Install & run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/socloom.git
-cd socloom
+git clone https://github.com/xAmirHamza77/SOCLOOM.git
+cd SOCLOOM
 cp .env.example .env
 
 python3.12 -m venv .venv && source .venv/bin/activate
